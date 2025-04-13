@@ -3,3 +3,12 @@
 n=input("Enter a string: ")
 
 print(len(n))
+
+
+
+
+
+
+
+
+

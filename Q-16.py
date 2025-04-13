@@ -9,3 +9,16 @@ print("characters in str is : ",ch)
 for i in n:
     frequency=n.count(i)
     print(str(i) + ":" , frequency, end=", ")
+
+#****************************OR*******************************
+
+n=input("Enter a string : ")
+
+ch=""
+
+for char in n:
+        if char not in ch:
+            count = n.count(char)
+            print(f"'{char}': {count}")
+            ch += char
+            
